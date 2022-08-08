@@ -1,0 +1,97 @@
+.explore-cards-conteiner {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  gap: 32px;
+  // margin: auto;
+}
+
+.carousel-card {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.explore-card {
+  height: 398px;
+  width: 100%;
+  border: 1px solid #efeff0;
+  line-height: 1;
+  &:hover {
+    cursor: pointer;
+    & .explore-card-title {
+      color: $clr1;
+    }
+  }
+  .explore-grid-details {
+    display: grid;
+    height: 52.5%;
+    //top l bt r
+    padding: 11px 12px 0 12px;
+    grid-template-areas:
+      "pic fullname . "
+      "pic degree . "
+      "title title title"
+      "rate rate rate"
+      "like . price";
+    grid-template-columns: 35px 1fr 1fr;
+    grid-template-rows: auto auto 1fr auto auto;
+    .explore-img-owner {
+      align-self: center;
+      grid-area: pic;
+      border-radius: 50%;
+      width: 26px;
+      height: 26px;
+      // margin: 0 auto;
+    }
+    .explore-card-name {
+      grid-area: fullname;
+      font-size: 1em;
+      line-height: 1.3;
+    }
+    .explore-card-degree {
+      line-height: 1.3;
+      grid-area: degree;
+      color: #74767e;;
+    }
+    .explore-card-title {
+      grid-area: title;
+      padding-top: 14px;
+      padding-top: 0.7em;
+
+      // margin-top: 14px;
+      // height: max-content;
+      line-height: 1.5;
+    }
+    .explore-card-rate {
+      grid-area: rate;
+      color: #ffbe5b;
+      // padding-left: 10px;
+      // padding-bottom: 10px;
+      border-bottom: 1px solid #efeff0;
+      padding-bottom: 4px;
+      span{
+        color:#b5b6ba;
+      }
+    }
+    .explore-card-like {
+      // margin: auto;
+      align-self: center;
+      grid-area: like;
+      fill: #b5b6ba;
+    }
+    .explore-card-price {
+      padding: 7.5px 0;
+      align-self: center;
+      font-size: 1.2em;
+      grid-area: price;
+      text-align-last: end;
+      line-height: 1.2;
+      span {
+        color: #74767e;
+        font-size: 0.5em;
+      }
+    }
+  }
+}

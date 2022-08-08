@@ -1,0 +1,124 @@
+.ex-filter-conteiner {
+  display: flex;
+  .el-select {
+    .el-input__inner {
+      color: black;
+      padding-top: 3px;
+    }
+  }
+  .ex-btn {
+    margin-right: 1em;
+    margin-top: 40px;
+    margin-bottom: 1.7em;
+    box-shadow: 0px 0px 1px 1px #bab2b2;
+    padding: 0.1em 0;
+    border-radius: 5px;
+    font-family: Macan-bold, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+    > * {
+      min-width: 110px;
+      max-width: 150px;
+    }
+    &.el-input__wrapper {
+      box-shadow: none;
+    }
+    input {
+      box-shadow: 0 0 0;
+      &::placeholder {
+        color: black;
+        font-size: 1.2em;
+        font-weight: 700;
+      }
+    }
+  }
+  .ex-filtr-rateing {
+    box-shadow: 0px 1px 1px 0.5px #bab2b2;
+    padding: 5px;
+  }
+}
+
+.ex-price input {
+  width: 60px !important;
+}
+
+.ex-sort input {
+  color: black !important;
+  font-size: 1.2em !important;
+  font-weight: 700 !important;
+  width: 60px !important;
+}
+
+.price-btn-ex {
+  // border-top: #bab2b2 1px solid;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+  & > * {
+    cursor: pointer;
+  }
+}
+
+.price-btn-ex button {
+  background-color: #1dbf73 !important;
+}
+
+.count-gigs {
+  margin-bottom: 25px;
+}
+.el-select-dropdown__item {
+  path {
+    fill: #ffbe5b;
+  }
+  // padding: 10px;
+  // box-shadow: 0px 1px 1px 0.5px #bab2b2;
+  // display: none;
+}
+
+.el-select {
+  --el-color-primary: white !important;
+  --el-border-color: white !important;
+  --el-border-color-hover: white !important;
+  --el-input-border-color: white !important;
+  --el-input-hover-border: white !important;
+  --el-select-border-color-hover: white !important;
+  --el-select-border-color-hover: white !important;
+  --el-select-input-focus-border-color: white !important;
+}
+
+.count-gigs {
+  p {
+    color: #74767e;
+  }
+}
+
+.el-select-dropdown__wrap.el-scrollbar__wrap {
+  height: 110px;
+  padding: 20px;
+}
+
+.el-scrollbar__view {
+  // display: flex;
+  // flex-direction: row;
+  .input-max {
+    margin: 10px;
+    // padding: 16px;
+    h5 {
+      // margin-left: 20px;
+    }
+  }
+  .input-min {
+    margin: 10px;
+    margin-right: 20px;
+    h5 {
+    }
+  }
+  .el-input__wrapper {
+    width: 120px;
+    height: 40px;
+    // margin-left: 20px;
+    // padding-right: 10px;
+  }
+  .el-select-dropdown__item {
+    padding: 0;
+  }
+}

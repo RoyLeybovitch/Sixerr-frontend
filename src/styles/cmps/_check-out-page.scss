@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.check-out-page {
+    display: flex;
+    font-family: "Macan-regular";
+    gap: 120px;
+    padding-top: 40px;
+    width: 1244px;
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.check-out-page .details {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    gap: 5px;
+    color: #95979d;
+}
+
+.check-out-page h1,
+.check-out-page h2,
+.check-out-page h3,
+.check-out-page h4,
+.check-out-page h5,
+.check-out-page p {
+    margin: 0;
+}
+
+.check-out-page .main-content-container {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+    flex-direction: column-reverse;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.check-out-page .right-side-container {
+    width: 700px
+}
+
+.check-out-page .left-side-container {
+    width: 90%;
+}
+.check-out-page .details h2 {
+    color: #404145;
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+.check-out-page .details p {
+    padding-bottom: 20px;
+}
+
+.check-out-page .main-content-container .main {
+    display: flex;
+    flex-direction: column;
+}
+
+.check-out-page .right-side-container ul {
+    gap: 20px;
+
+}
+
+.check-out-page .right-side-container h3 {
+    padding-bottom: 20px;
+}
+
+.check-out-page .right-side-container li {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.check-out-page .right-side-container button {
+    margin-top: 20px;
+    font-weight: 600;
+    width: 100%;
+    background-color: #1dbf73;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0.8em;
+    transform: 0.1s;
+    cursor: pointer;
+
+}
+
+.check-out-page .right-side-container ul :nth-child(3) {
+    padding-top: 30px;
+    border-top: 1px solid #ddd;
+}
+
+.check-out-page .price {
+    color: #62646a;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.check-out-page .details {
+    font-size: 14px;
+}
+
+
+// .right-side-container .order-modal {
+//     position: sticky;
+//     top: 85px;
+//     width: 380px;
+//     border: 1px solid #DADBDD;
+//     padding: 24px;
+// }

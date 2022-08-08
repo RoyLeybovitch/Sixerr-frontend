@@ -1,0 +1,30 @@
+.imgs-ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding: 0 24px;
+    gap: 60px;
+    height: 6em;
+}
+.trusted-by-wrapper {
+    background-color: #fafafa;
+    width: 100%;
+}
+.trusted-by {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trusted-by-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 0px 20px 0px 0px;
+    color: #b5b6ba;
+    // font-weight: 600;
+    font-family: 'Macan-Bold';
+    font-weight: 400;
+}

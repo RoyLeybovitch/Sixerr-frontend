@@ -1,0 +1,40 @@
+//SETUP
+@import './setup/functions';
+@import './setup/mixins';
+@import './setup/typography';
+@import './setup/variables';
+
+//BASIC
+@import './basic/base';
+@import './basic/helpers';
+@import './basic/layout';
+@import './basic/screen';
+
+//VIEWS
+@import './views/app-details';
+@import './views/app-explore';
+
+//COMPONENTS
+@import './cmps/back-office-new';
+@import './cmps/sidebar';
+@import './cmps/app-header';
+@import './cmps/app-hero';
+@import './cmps/gig-details';
+@import './cmps/explore-filters';
+@import './cmps/explore-category';
+@import './cmps/explore-category-carusel';
+@import './cmps/explore-cards';
+@import './cmps/explore-tags';
+@import './cmps/category-preview';
+@import './cmps/main-info';
+@import './cmps/sign-in-modal';
+@import './cmps/app-footer';
+@import './cmps/sign-up';
+@import './cmps/trusted-by';
+@import './cmps/carousel-card';
+@import './cmps/_check-out-page';
+@import './cmps/overview-header';
+// @import './cmps/back-office';
+
+//FONTS
+@import './basic/fonts';
