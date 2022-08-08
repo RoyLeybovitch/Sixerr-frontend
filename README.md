@@ -1,5 +1,5 @@
 Hello!
-This is Sixerr, my fiverr clone application built with VUE + VUEX.
+This is Sixerr, my Fiverr clone application built with VUE + VUEX.
 
 http://sixerr-marketplace.herokuapp.com/#/
 
